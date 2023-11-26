@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:0px) and (max-width:374px) {
+          .md{
+            border:1px solid blue;
+            background-color: aquamarine;
+            box-shadow: 2px 2px;
+            
+          } 
+          .cd{
+           display: flex;
+           flex-wrap: wrap;
+           align-items: center;
+          }
+          .cd1{
+            
+          }
+        }
+        @media screen and (min-width:375px) and (max-width:424px){
+           .md{
+            border: 1px solid yellow;
+            background-color: blueviolet;
+            
+             box-shadow:2px 2px;
+         
+         }
+            .cd{
+                
+                border: 1px solid yellow;
+            background-color: blueviolet;
+            
+             box-shadow:2px 2px;
+           
+            
+           
+            }
+            .cd1{
+                
+                border: 1px solid green;
+            background-color:yellow;
+            
+             box-shadow:2px 2px;
+             display: none;
+         
+           
+            }
+        }
+        @media screen and (min-width:425px) and (max-width:768px){
+           .md{
+            border: 1px solid white;
+            background-color: black;
+            
+             box-shadow:2px 2px;
+         
+         }
+         .cd{
+                
+                border: 1px solid purple;
+            background-color: chocolate;
+            
+             box-shadow:2px 2px;
+         }
+            .cd1{
+                
+                border: 1px solid green;
+            background-color:yellow;
+            
+             box-shadow:2px 2px;
+         
+           
+            }
+        }
+   
+     
+    </style>
+</head>
+<body>
+    <div class="md">
+        <img src="https://th.bing.com/th/id/R.1bc60bd3666fc3431cd8b1d1ac6c3d0a?rik=J5Pjsy7Dhb0HKg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f7%2f2%2f52697.jpg&ehk=bSFndpRj8KLi1JoWtUOLDphHPT%2bKC3nAvyYQgMDgSeQ%3d&risl=&pid=ImgRaw&r=0"height="150" width="100">
+        <img src="https://wallpaperaccess.com/full/121194.jpg"height="150" width="100">
+        </div>
+     <div class="cd">
+            <img src="https://live.staticflickr.com/8018/7378501812_dcf3d813e0_n.jpg"height="150">
+            <img src="https://th.bing.com/th/id/OIP.pbANdL3-0CRAfSruetFpEgHaEo?w=1680&h=1050&rs=1&pid=ImgDetMain"height="150"width="100">
+        </div>
+        <div class="cd1">
+            <img src="https://wallpapertag.com/wallpaper/full/6/f/f/130733-gorgerous-ultra-hd-wallpapers-4k-3840x2160.jpg"height="150"width="100">
+            <img src="https://th.bing.com/th/id/OIP.t-1WryHfYPsrue-f5XAeXQHaFj?w=1600&h=1200&rs=1&pid=ImgDetMain"height="150"width="100">
+        </div>
+    </div>
+</body>
+</html>
